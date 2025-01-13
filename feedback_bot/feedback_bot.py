@@ -35,7 +35,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
 
 # Основная функция для запуска бота
 def main() -> None:
-    updater = Updater("7624032594:AAEHtduiBwzbG_pDpaKu8REXRcvb0f0aQRQ")
+    updater = Updater("")
 
     # Обработчик разговоров
     conv_handler = ConversationHandler(
